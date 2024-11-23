@@ -39,6 +39,7 @@ class _CalculatorState extends State<Calculator> {
     //fungsi button pressed uang akan dipanggil ketika tombol ditekan
     setState(() {
       if (buttonText == "C") {
+        //C untuk clear
         output = "0";
       } else if (buttonText == "=") {
         //jika tombol = ditekan, output diubah menjadi hasil dari expression
